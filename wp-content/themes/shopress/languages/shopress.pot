@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shopress\n"
+"POT-Creation-Date: 2017-04-17 09:08+0530\n"
+"PO-Revision-Date: 2017-04-17 09:08+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .C:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\shopress-lite\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\shopress-lite\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/404.php:15
+msgid "404"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/404.php:30
+msgid "Go Back"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/content.php:26
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/sections/home-blog.php:41
+msgid "by"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/content.php:31
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/templates/fullwidth.php:32
+msgid "Pages:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/functions.php:83
+msgid "Primary menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/functions.php:84
+msgid "Footer Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/functions.php:185
+msgid "Read More"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/header.php:49
+msgid "Search Here"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/header.php:69
+msgid "Cart"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/header.php:72
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/header.php:89
+msgid "Items"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/header.php:88
+msgid "View your shopping cart"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/search.php:24
+msgid "Not Found"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/search.php:26
+msgid "Sorry, Do Not match."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/single.php:49
+msgid "By"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:7
+msgid "Footer Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:11
+msgid "Copyright Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:12
+msgid "This is a Footer section."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:21
+msgid "Copyright text"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:28
+msgid "Social Link"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:38
+msgid "Facebook URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:49
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:69
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:90
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:111
+msgid "Open Link New tab/window"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:58
+msgid "Twitter URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:78
+msgid "Linkedin URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_copyright.php:99
+msgid "Google-plus URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:7
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:14
+msgid "Choose Page"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:22
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:123
+msgid "Homepage Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:32
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:133
+msgid "Slider Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:47
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:147
+msgid "Enable Slider Section"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:59
+msgid "Select Page One"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:72
+msgid "Select Page Two"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:85
+msgid "Select Page Three"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:99
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:253
+msgid "Product Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:112
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:267
+msgid "Enable Product Section"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:125
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:281
+msgid "Product Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:137
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:294
+msgid "Product Subtitle"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:149
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:306
+msgid "News & Events Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:162
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:320
+msgid "Enable News Section"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:175
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:373
+msgid "Latest News Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/shopress_customize_homepage.php:188
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:387
+msgid "Latest News Subtitle"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:7
+msgid "Choose Post"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:159
+msgid "Select Post One"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:172
+msgid "Select Post Two"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:185
+msgid "Select Post Three"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:199
+msgid "Ads Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:213
+msgid "Enable Ads Section"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:227
+msgid "Ads Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:240
+msgid "Ads Subtitle"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:332
+msgid "Choose Background Image"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:357
+msgid "Hide/Show Blog Meta:- Like author name,categories"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\shopress-lite/inc/icy/customize/ti_customize_homepage.php:358
+msgid "Hide / Show Blog Meta:- Like author name,categories"
+msgstr ""

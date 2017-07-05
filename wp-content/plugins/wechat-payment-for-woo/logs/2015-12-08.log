@@ -1,0 +1,502 @@
+[2015-12-08 12:04:40][debug] Pay order with weChat payment
+[2015-12-08 12:04:41][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => zgMUtR9mVVlWipGe
+    [sign] => 2DF974F9B99426CE834D851101E1514D
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208200441ad47c758b90226134491
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=DGwdk54
+)
+
+[2015-12-08 12:04:41][debug] Pay order with weChat payment
+[2015-12-08 12:04:42][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => k7esYqBmBrZ2bEVs
+    [sign] => 67C116E11EE764D5A1B149F16EF59B02
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208200442065e22f01f0022076457
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=lpBP0lf
+)
+
+[2015-12-08 12:04:43][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=DGwdk54
+[2015-12-08 12:04:43][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=lpBP0lf
+[2015-12-08 12:04:43][debug]  start loop !
+[2015-12-08 12:04:43][debug]  check_wechatpay_response is need pay:1
+[2015-12-08 12:08:14][debug] Pay order with weChat payment
+[2015-12-08 12:08:15][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => yJan74TL1WsSzZYn
+    [sign] => 64B7A19642120E862B27F64D23DE37B6
+    [result_code] => SUCCESS
+    [prepay_id] => wx201512082008157a9ea0f1c60659835605
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=jfiPEUe
+)
+
+[2015-12-08 12:08:15][debug] Pay order with weChat payment
+[2015-12-08 12:08:16][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => MQ4r6PKxJb6Vp30D
+    [sign] => 2E9F076A58DD4081FD4CE1E3E56DFE28
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208200816b74a2f45140003444254
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=StHtA2S
+)
+
+[2015-12-08 12:08:17][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=jfiPEUe
+[2015-12-08 12:08:17][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=StHtA2S
+[2015-12-08 12:08:17][debug]  start loop !
+[2015-12-08 12:08:17][debug]  check_wechatpay_response is need pay:1
+[2015-12-08 12:08:17][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=StHtA2S
+[2015-12-08 12:12:59][debug] Pay order with weChat payment
+[2015-12-08 12:13:01][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => Vg9doyPSSNVigOf4
+    [sign] => 57CE6A85EBD17566FB8D146344FF1AF9
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208201301add06666c20262175874
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=6a68Q7Y
+)
+
+[2015-12-08 12:13:01][debug] Pay order with weChat payment
+[2015-12-08 12:13:02][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => MzcwXYWrLfojSNfM
+    [sign] => 465ED369D568C2583D25959C16EC772F
+    [result_code] => SUCCESS
+    [prepay_id] => wx2015120820130279ebd365410490678377
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=cdx33Il
+)
+
+[2015-12-08 12:13:03][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=6a68Q7Y
+[2015-12-08 12:13:03][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=cdx33Il
+[2015-12-08 12:13:03][debug]  start loop !
+[2015-12-08 12:13:03][debug]  check_wechatpay_response is need pay:1
+[2015-12-08 12:17:33][debug] Pay order with weChat payment
+[2015-12-08 12:17:34][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => XxqbICqu3miTvvZk
+    [sign] => 4244079BA5CE164260AF1E307641EE08
+    [result_code] => SUCCESS
+    [prepay_id] => wx2015120820173485f4f76ec30047303478
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=2iZZKKd
+)
+
+[2015-12-08 12:17:34][debug] Pay order with weChat payment
+[2015-12-08 12:17:36][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => YBtaAbK3KQidJIwI
+    [sign] => 8E79CC173AAB742D92AFF43AE407CCA5
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208201735fdebd818fc0199549466
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=46BU1n3
+)
+
+[2015-12-08 12:17:36][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=2iZZKKd
+[2015-12-08 12:17:36][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=46BU1n3
+[2015-12-08 12:17:36][debug]  start loop !
+[2015-12-08 12:17:36][debug]  check_wechatpay_response is need pay:1
+[2015-12-08 12:17:42][debug] Pay order with weChat payment
+[2015-12-08 12:17:43][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => uSEsxt3Qlb5jMi27
+    [sign] => 9C9EEC7BBC8B1D8FE8FBC70619EF38AA
+    [result_code] => SUCCESS
+    [prepay_id] => wx201512082017435427f06b5b0446442968
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=XAZuGCU
+)
+
+[2015-12-08 12:17:43][debug] Pay order with weChat payment
+[2015-12-08 12:17:45][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => Pzc5ry0tcKWNmXqN
+    [sign] => 89A147CFD9DD01D262B475D056BA3919
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208201744feafe92e910123224302
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=wKO8cxl
+)
+
+[2015-12-08 12:17:45][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=XAZuGCU
+[2015-12-08 12:17:45][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=wKO8cxl
+[2015-12-08 12:17:45][debug]  start loop !
+[2015-12-08 12:17:45][debug]  check_wechatpay_response is need pay:1
+[2015-12-08 12:18:59][debug] Pay order with weChat payment
+[2015-12-08 12:19:02][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => v1A50vwviCLLK1UN
+    [sign] => F388303B97EAA7C028179E525734034F
+    [result_code] => SUCCESS
+    [prepay_id] => wx201512082019010f2a59f3dc0720107625
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=iMizWmL
+)
+
+[2015-12-08 12:19:02][debug] Pay order with weChat payment
+[2015-12-08 12:19:03][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => 7xoHIiYiQRoQDvZZ
+    [sign] => C9CD8B96B5B33A3C65D6F0ABCBC70A2D
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208201903c693c928520361107151
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=8P8TZ3p
+)
+
+[2015-12-08 12:19:04][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=8P8TZ3p
+[2015-12-08 12:19:04][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=iMizWmL
+[2015-12-08 12:19:04][debug]  start loop !
+[2015-12-08 12:19:04][debug]  check_wechatpay_response is need pay:1
+[2015-12-08 12:19:16][debug]  start loop !
+[2015-12-08 12:19:16][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:16][debug]  start loop !
+[2015-12-08 12:19:16][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:17][debug]  start loop !
+[2015-12-08 12:19:17][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:17][debug]  start loop !
+[2015-12-08 12:19:17][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:18][debug]  start loop !
+[2015-12-08 12:19:18][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:18][debug]  start loop !
+[2015-12-08 12:19:18][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:19][debug]  start loop !
+[2015-12-08 12:19:19][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:20][debug]  start loop !
+[2015-12-08 12:19:20][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:20][debug]  start loop !
+[2015-12-08 12:19:20][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:21][debug]  start loop !
+[2015-12-08 12:19:21][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:21][debug] Pay order with weChat payment
+[2015-12-08 12:19:21][debug]  start loop !
+[2015-12-08 12:19:21][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:19:23][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => VeyJPr8F9BGDHd9k
+    [sign] => 5542F3ABFB04F7DDDE67223AD31DA454
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208201922ad9711a2b80729171211
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=maGC4Rs
+)
+
+[2015-12-08 12:19:23][debug] Pay order with weChat payment
+[2015-12-08 12:19:24][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => 3P7SceXZh5oruj7F
+    [sign] => C30F6A93B966949D22A78D7F96614A61
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208201924dd1cffeb000192565948
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=RKlHum7
+)
+
+[2015-12-08 12:19:24][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=maGC4Rs
+[2015-12-08 12:19:24][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=RKlHum7
+[2015-12-08 12:19:24][debug]  start loop !
+[2015-12-08 12:19:24][debug]  check_wechatpay_response is need pay:1
+[2015-12-08 12:22:04][debug] Pay order with weChat payment
+[2015-12-08 12:22:05][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => jVeamL7N0BNHTxFO
+    [sign] => 97DCE081951B1A009E864038318E42F1
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208202205a43a4964140182546693
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=2Z8rcy1
+)
+
+[2015-12-08 12:22:06][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=2Z8rcy1
+[2015-12-08 12:23:19][debug] Pay order with weChat payment
+[2015-12-08 12:23:21][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => iFEkr66lOKP2acEH
+    [sign] => 3AFB622CCE6C1C407D6AF4CB2DBFEC62
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208202320f5f70e04820108488895
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=HIdnpO3
+)
+
+[2015-12-08 12:23:21][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=HIdnpO3
+[2015-12-08 12:23:21][debug]  start loop !
+[2015-12-08 12:23:21][debug]  check_wechatpay_response is need pay:1
+[2015-12-08 12:40:14][debug]  start loop !
+[2015-12-08 12:40:14][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:15][debug]  start loop !
+[2015-12-08 12:40:15][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:16][debug]  start loop !
+[2015-12-08 12:40:16][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:16][debug]  start loop !
+[2015-12-08 12:40:16][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:17][debug]  start loop !
+[2015-12-08 12:40:17][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:17][debug]  start loop !
+[2015-12-08 12:40:17][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:18][debug]  start loop !
+[2015-12-08 12:40:18][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:18][debug]  start loop !
+[2015-12-08 12:40:18][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:19][debug]  start loop !
+[2015-12-08 12:40:19][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:20][debug]  start loop !
+[2015-12-08 12:40:20][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:20][debug]  start loop !
+[2015-12-08 12:40:20][debug]  check_wechatpay_response is need pay:
+[2015-12-08 12:40:34][debug] Pay order with weChat payment
+[2015-12-08 12:40:36][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => qRtOwLz1Ashg8EjZ
+    [sign] => 8D90AA69357E34BB2A94DCD6FE35510D
+    [result_code] => SUCCESS
+    [prepay_id] => wx2015120820403694c072e4fb0425554937
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=HujvBJk
+)
+
+[2015-12-08 12:40:36][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=HujvBJk
+[2015-12-08 12:40:37][debug]  start loop !
+[2015-12-08 12:40:37][debug]  check_wechatpay_response is need pay:1
+[2015-12-08 12:43:23][debug] Pay order with weChat payment
+[2015-12-08 12:43:24][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => tqdA2jzrNEULrCI2
+    [sign] => 6D99D0BF72E2BE30CEAF94E16F0507A5
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208204324da25d5aa2c0849900398
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=zCHyJ4U
+)
+
+[2015-12-08 12:43:25][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=zCHyJ4U
+[2015-12-08 12:43:25][debug]  start loop !
+[2015-12-08 12:43:25][debug]  check_wechatpay_response orderid:15is need pay:1
+[2015-12-08 12:43:25][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=zCHyJ4U
+[2015-12-08 12:45:48][debug] Pay order with weChat payment
+[2015-12-08 12:45:49][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => fduomU2ws3xYecID
+    [sign] => 44669B9355FD641BC885BEB2AE436E76
+    [result_code] => SUCCESS
+    [prepay_id] => wx2015120820454918acc8e71a0959300832
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=y0N8VvG
+)
+
+[2015-12-08 12:45:49][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=y0N8VvG
+[2015-12-08 12:45:50][debug]  start loop !
+[2015-12-08 12:45:50][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:45:50][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=y0N8VvG
+[2015-12-08 12:45:50][debug]  start loop !
+[2015-12-08 12:45:50][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:45:51][debug]  start loop !
+[2015-12-08 12:45:51][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:45:51][debug]  start loop !
+[2015-12-08 12:45:51][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:45:52][debug]  start loop !
+[2015-12-08 12:45:52][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:45:53][debug]  start loop !
+[2015-12-08 12:45:53][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:45:53][debug]  start loop !
+[2015-12-08 12:45:53][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:45:54][debug]  start loop !
+[2015-12-08 12:45:54][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:45:54][debug]  start loop !
+[2015-12-08 12:45:54][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:45:55][debug]  start loop !
+[2015-12-08 12:45:55][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:45:55][debug]  start loop !
+[2015-12-08 12:45:55][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:10][debug] Pay order with weChat payment
+[2015-12-08 12:46:11][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => fFiMJVB2v9LkYwhZ
+    [sign] => 6DE46025B7D752EA791F6A8E0AC1CB6D
+    [result_code] => SUCCESS
+    [prepay_id] => wx2015120820461153168aae360462127733
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=3bQLbsN
+)
+
+[2015-12-08 12:46:12][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=3bQLbsN
+[2015-12-08 12:46:12][debug]  start loop !
+[2015-12-08 12:46:12][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:12][debug]  start loop !
+[2015-12-08 12:46:12][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:13][debug]  start loop !
+[2015-12-08 12:46:13][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:13][debug]  start loop !
+[2015-12-08 12:46:13][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:14][debug]  start loop !
+[2015-12-08 12:46:14][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:15][debug]  start loop !
+[2015-12-08 12:46:15][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:15][debug]  start loop !
+[2015-12-08 12:46:15][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:16][debug]  start loop !
+[2015-12-08 12:46:16][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:16][debug]  start loop !
+[2015-12-08 12:46:16][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:17][debug]  start loop !
+[2015-12-08 12:46:17][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:18][debug]  start loop !
+[2015-12-08 12:46:18][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:46:58][debug] Pay order with weChat payment
+[2015-12-08 12:47:00][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => GrDLKrUlG7k6NgJk
+    [sign] => FA817C19F7AED29BB394CFFF95B55201
+    [result_code] => SUCCESS
+    [prepay_id] => wx2015120820465913d90062550685630911
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=nQGyaQ1
+)
+
+[2015-12-08 12:47:00][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=nQGyaQ1
+[2015-12-08 12:47:00][debug]  start loop !
+[2015-12-08 12:47:00][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:47:00][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=nQGyaQ1
+[2015-12-08 12:47:01][debug]  start loop !
+[2015-12-08 12:47:01][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:47:01][debug]  start loop !
+[2015-12-08 12:47:01][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:47:02][debug]  start loop !
+[2015-12-08 12:47:02][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:47:03][debug]  start loop !
+[2015-12-08 12:47:03][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:47:03][debug]  start loop !
+[2015-12-08 12:47:03][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:47:04][debug]  start loop !
+[2015-12-08 12:47:04][debug]  check_wechatpay_response orderid:15is need pay:
+[2015-12-08 12:47:04][debug]  start loop !
+[2015-12-08 12:47:05][debug]  check_wechatpay_response orderid:15is need pay:1
+[2015-12-08 12:50:43][debug] Pay order with weChat payment
+[2015-12-08 12:50:45][debug] Response of WxPayApi::unifiedOrder:Array
+(
+    [return_code] => SUCCESS
+    [return_msg] => OK
+    [appid] => wx6da39b9d4b4ee7f1
+    [mch_id] => 1266322901
+    [nonce_str] => lBMqmDGcCerGgRzb
+    [sign] => D57401E81ABE38ADB6D906C9C8EA82AB
+    [result_code] => SUCCESS
+    [prepay_id] => wx20151208205045e588998a7b0727192966
+    [trade_type] => NATIVE
+    [code_url] => weixin://wxpay/bizpayurl?pr=YtBPmO7
+)
+
+[2015-12-08 12:50:45][debug] Generate WeChat QR Code:weixin://wxpay/bizpayurl?pr=YtBPmO7
+[2015-12-08 12:50:45][debug]  start loop !
+[2015-12-08 12:50:45][debug]  check_wechatpay_response orderid:16is need pay:
+[2015-12-08 12:50:46][debug]  start loop !
+[2015-12-08 12:50:46][debug]  check_wechatpay_response orderid:16is need pay:
+[2015-12-08 12:50:46][debug]  start loop !
+[2015-12-08 12:50:46][debug]  check_wechatpay_response orderid:16is need pay:
+[2015-12-08 12:50:47][debug]  start loop !
+[2015-12-08 12:50:47][debug]  check_wechatpay_response orderid:16is need pay:
+[2015-12-08 12:50:47][debug]  start loop !
+[2015-12-08 12:50:47][debug]  check_wechatpay_response orderid:16is need pay:
+[2015-12-08 12:50:48][debug]  start loop !
+[2015-12-08 12:50:48][debug]  check_wechatpay_response orderid:16is need pay:
+[2015-12-08 12:50:49][debug]  start loop !
+[2015-12-08 12:50:49][debug]  check_wechatpay_response orderid:16is need pay:
+[2015-12-08 12:50:49][debug]  start loop !
+[2015-12-08 12:50:49][debug]  check_wechatpay_response orderid:16is need pay:
+[2015-12-08 12:50:50][debug]  start loop !
+[2015-12-08 12:50:50][debug]  check_wechatpay_response orderid:16is need pay:
+[2015-12-08 12:50:50][debug]  start loop !
+[2015-12-08 12:50:50][debug]  check_wechatpay_response orderid:16is need pay:
+[2015-12-08 12:50:51][debug]  start loop !
+[2015-12-08 12:50:51][debug]  check_wechatpay_response orderid:16is need pay:

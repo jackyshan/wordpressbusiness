@@ -1,0 +1,2547 @@
+/*
+Theme Name: Shopress
+Theme URI: http://themeicy.com/themes/shopress
+Author: themeicy
+Author URI: http://themeicy.com
+Description: Shopress is ideal theme for e-commerce and an online store,also fit for blog and Fashion website. Its a clean & unique design with a custom front page easily create online store and  much more like fashion store, sport store, apparel store, cosmetics shop, jewelry store and for multipurpose online stores.
+Version: 0.8
+Tags: one-column, left-sidebar, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, blog, e-commerce, news
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: shopress
+*/
+
+/* --------------------------------------
+=========================================
+	Header
+=========================================
+-----------------------------------------*/
+.shopress-head-detail {
+	padding: 5px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.shopress-head-detail .info-left {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.shopress-head-detail .info-left li {
+	display: inline-block;
+	margin-right: 15px;
+	padding: 0;
+}
+.shopress-head-detail .info-left li a {
+	font-size: 12px;
+	font-weight: 500;
+}
+.shopress-head-detail .info-left i {
+	font-size: 14px;
+	padding-right: 10px;
+}
+.info-right {
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.info-right li {
+	display: inline-block;
+	margin-right: 15px;
+	padding: 0;
+}
+.shopress-head-detail .info-right li a {
+	font-size: 12px;
+	font-weight: 500;
+}
+.shopress-head-detail .info-right i {
+	font-size: 14px;
+	padding-right: 10px;
+}
+.shopress-head-detail ul ul {
+	display:none;
+	position:absolute;
+	top:98%;
+	right: inherit;
+	background:#fff;
+	padding:0;
+	border-radius: 0;
+	z-index: 999;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+	border: 1px solid #eee;
+}
+.shopress-head-detail ul ul li {
+	float:none;
+	width:100%;
+	min-width: 100px;
+	padding: 8px 0;
+}
+.shopress-head-detail ul ul a {
+	line-height:1;
+	padding: 8px 16px;
+}
+.shopress-head-detail ul ul ul {
+	top:0;
+	left:100%;
+}
+.shopress-head-detail ul li:hover > ul {
+	display:block;
+}
+.shopress-head-detail ul li:last-child > ul {
+	float: left;
+	right: 0;
+	left: inherit;
+}
+/*---------------------------------------
+	Header Widget      
+-----------------------------------------*/
+.header-widget .shopress-header-box {
+	margin: 18px 0;
+}
+.header-widget .shopress-header-box .btn {
+	border: medium none;
+	height: 40px;
+	padding: 2px 12px;
+	transition: all 0.3s ease 0s;
+}
+.shopress-header-box .searchform .btn {
+	border: medium none;
+	height: 40px;
+	padding: 2px 12px;
+	transition: all 0.3s ease 0s;
+	border-width: 1px 1px 1px 0px;
+	border-style: solid;
+	border-radius: 0;
+}
+.header-widget  .shopress-header-cart {
+	float: right;
+	margin: 14px 0 18px;
+	list-style: none;
+}
+.header-widget ul li a span i {
+    float: left;
+    font-size: 40px;
+    height: 40px;
+    line-height: 50px;
+    margin: 0 6px 0 0;
+    text-align: center;
+    width: 50px;   
+}
+.header-widget .shopress-cart-total {
+    color: #929292;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    min-width: 160px;
+    position: relative;
+    text-align: left;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    border-color: #ccc;
+    padding-left: 10px;
+}
+.header-widget span.shopress-cart-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.header-widget span.shopress-cart-price {
+    color: #303f9f;
+    font-size: 15px;
+    margin-right: 0;
+    white-space: nowrap;
+}
+.navbar-wp .shopress-header-cart-mob {
+	float: right;
+    font-size: 20px;
+    line-height: 40px;
+    display: none;
+}
+/*---------------------------------------
+	Theme Menu          
+-----------------------------------------*/
+.navbar-wp {
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	z-index: 1000;
+	box-shadow: 0 1px 3px 0 rgba(226, 225, 225, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	border: 1px solid #ececec;
+}
+.navbar-brand {
+	font-size: 26px;
+	height: auto;
+	line-height: 25px;
+	margin-right: 50px;
+	padding: 15px 0;
+	text-shadow: 2px 2px 1px rgba(150, 150, 183, 0.18);
+}
+.navbar-brand span.site-description {
+	font-size: 13px;
+	line-height: 0;
+}
+.navbar-wp .navbar-nav > li> a {
+	padding: 16px 16px;
+	margin-right: 0;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	-webkit-transition: all .25s ease-out;
+	-moz-transition: all .25s ease-out;
+	transition: all .25s ease-out;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.navbar-wp .navbar-nav > li > ul::before {
+	content: "";
+	left: 15%;
+	position: absolute;
+	top: -22px;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-image: none;
+	border-style: solid;
+	border-width: 11px;
+	width: 0;
+	z-index: 1100;
+}
+.navbar-wp .navbar-nav > li > ul > li > a i {
+	padding-right: 10px;
+}
+
+.navbar-wp .navbar-nav > .disabled > a, .navbar-wp .navbar-nav > .disabled > a:hover, .navbar-wp .navbar-nav > .disabled > a:focus {
+	background-color: transparent;
+}
+.navbar-base .navbar-nav > .open > a, .navbar-base .navbar-nav > .open > a:hover, .navbar-base .navbar-nav > .open > a:focus {
+	background: transparent;
+}
+.navbar-toggle {
+	border: none;
+	margin: 6px auto;
+	position: absolute;
+	left: 10px;
+	right: 0;
+	box-shadow: inherit;
+}
+.navbar-wp .dropdown-menu {
+	min-width: 200px;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	z-index: 10;
+	right: auto;
+	left: 0;
+}
+.navbar-wp .dropdown-menu > li {
+	
+}
+.navbar-wp .dropdown-menu > li:last-child {
+	border: 0
+}
+.navbar-wp .dropdown-menu > li > a {
+	padding: 8px 15px;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+.navbar-nav > li:last-child > .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+.dropdown-submenu {
+	position: relative
+}
+.dropdown-submenu > .dropdown-menu {
+	top: -1px;
+	left: 100%;
+	margin-top: 0;
+	margin-left: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0
+}
+.dropdown-submenu:hover > .dropdown-menu {
+	display: block;
+	padding: 0
+}
+.dropdown-submenu.pull-left {
+	float: none
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+	left: -100%;
+	margin-left: 10px
+}
+.is-sticky .navbar-wp {
+	box-shadow: 0 1px 3px 0 rgba(226, 225, 225, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.is-sticky .navbar-brand {
+	padding: 8px 0 0 15px;
+	transition: all 0.25s ease-out 0s;
+	font-size: 22px;
+	line-height: 18px;
+}
+.shopress-search-box > .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+.shopress-search-box .shopress-search .btn {
+	padding: 2px 12px;
+	border-radius: 0 3px 3px 0;
+	height: 40px;
+	border-width: 1px;
+	border-style: solid;
+}
+/* --------------------------------------
+=========================================
+	General
+=========================================
+-----------------------------------------*/
+
+/*---------------------------------------
+	Body & Global           
+-----------------------------------------*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.boxed {
+	width: 1170px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px 0 rgba(48, 48, 48, 0.5);
+}
+a {
+	text-decoration: none;
+}
+body a:focus, body a:hover {
+	outline: none;
+	text-decoration: none;
+}
+select {
+	background-clip: padding-box;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #444;
+	display: block;
+	font-weight: 400;
+	overflow: hidden;
+	padding: 6px 12px;
+	position: relative;
+	text-decoration: none;
+	white-space: nowrap;
+}
+ .no-gutter > [class*=col-] {
+ padding-right: 0;
+ padding-left: 0;
+}
+input:not([type]), input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+	border-radius: 3px;
+	margin-bottom: 20px;
+	box-shadow: inherit;
+	padding: 6px 12px;
+	line-height: 25px;
+	border-width: 2px;
+	border-style: solid;
+}
+input[type="submit"], button {
+	padding: 5px 35px;
+	line-height: 30px;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 14px;
+	border-width: 2px;
+	border-style: solid;
+	transition: all 0.4s ease-in-out 0s;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+input:not([type]):hover, input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="tel"]:hover, input[type="url"]:hover, input[type="text"]:hover, input:not([type]):focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="text"]:focus {
+	border-width: 2px;
+	border-style: solid;
+}
+textarea {
+	border: 2px solid #eee;
+	border-radius: 3px;
+}
+input[type="submit"]:hover, button:hover, input[type="submit"]:focus, button:focus {
+	transition: all 0.3s ease 0s;
+	outline: none;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 4px rgba(0, 0, 0, 0.16);
+}
+mark, .mark {
+	padding: 2px 5px;
+	border-radius: 3px;
+}
+/*---------------------------------------
+	Typography        
+-----------------------------------------*/
+h1, .h1 {
+	font-size: 34px;
+	line-height: 40px;
+}
+h2, .h2 {
+	font-size: 32px;
+	line-height: 35px;
+}
+h3, .h3 {
+	font-size: 28px;
+	line-height: 30px;
+}
+h4, .h4 {
+	font-size: 24px;
+	line-height: 25px;
+}
+h5, .h5 {
+	font-size: 20px;
+	line-height: 20px;
+}
+h6, .h6 {
+	font-size: 16px;
+	line-height: 20px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: normal;
+}
+.alignright {
+	text-align: right;
+}
+.alignleft {
+	text-align: left;
+}
+.aligncenter {
+	text-align: center;
+}
+blockquote {
+	position: relative;
+	width: 100%;
+	border-width: 0 0 0 5px;
+	border-style: solid;
+}
+blockquote::before {
+	color: #d0d0d0;
+	content: "\f10d";
+	display: table;
+	float: left;
+	font-family: "FontAwesome";
+	font-size: 28px;
+	margin-top: 6px;
+	font-weight: normal;
+	width: 6%;
+}
+blockquote p {
+	font-style: italic;
+	width: 94%;
+	display: table;
+}
+.margin-top-zero {
+	margin-top: 0px;
+}
+.margin-bottom-zero {
+	margin-bottom: 0px;
+}
+.margin-top-10 {
+	margin-bottom: 10px;
+}
+.margin-top-20 {
+	margin-top: 20px;
+}
+.margin-top-30 {
+	margin-top: 30px;
+}
+.margin-top-50 {
+	margin-top: 50px;
+}
+.margin-top-80 {
+	margin-top: 80px;
+}
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+.margin-bottom-50 {
+	margin-bottom: 50px;
+}
+.margin-bottom-80 {
+	margin-bottom: 80px;
+}
+.padding-top-10 {
+	padding-top: 10px;
+}
+.padding-top-20 {
+	padding-top: 20px;
+}
+.padding-top-30 {
+	padding-top: 30px;
+}
+.padding-top-50 {
+	padding-top: 50px;
+}
+.padding-top-40 {
+	padding-top: 40px;
+}
+.padding-top-60 {
+	padding-top: 60px;
+}
+.padding-top-80 {
+	padding-top: 80px;
+}
+.padding-bottom-10 {
+	padding-bottom: 10px;
+}
+.padding-bottom-20 {
+	padding-bottom: 20px;
+}
+.padding-bottom-30 {
+	padding-bottom: 30px;
+}
+.padding-bottom-50 {
+	padding-bottom: 50px;
+}
+.padding-bottom-60 {
+	padding-bottom: 60px;
+}
+.padding-bottom-80 {
+	padding-bottom: 80px;
+}
+/*---------------------------------------
+	Alerts Styles           
+-----------------------------------------*/
+.alert-success, .text-success {
+	background-color: #2ac56c;
+	color: #fff;
+}
+.alert-info, .text-info {
+	background-color: #4593e3;
+	color: #fff;
+}
+.alert-danger, .text-danger {
+	background-color: #f06060;
+	color: #fff;
+}
+.alert-warning, .text-warning {
+	background-color: #fcd04b;
+	color: #fff;
+}
+.progress-bar-success {
+	background-color: #2ac56c;
+	color: #fff;
+}
+.progress-bar-info {
+	background-color: #4593e3;
+	color: #fff;
+}
+.progress-bar-danger {
+	background-color: #f06060;
+	color: #fff;
+}
+.progress-bar-warning {
+	background-color: #fcd04b;
+	color: #fff;
+}
+.shopress-skills .progress {
+	border-radius: 0;
+}
+.shopress-skills .progress .progress-bar {
+	overflow: hidden;
+	position: absolute;
+}
+.subscription-success {
+	color: #2ac56c;
+}
+.subscription-error {
+	color: #f06060;
+}
+/*---------------------------------------
+	2.4.Button Styles           
+-----------------------------------------*/
+.btn {
+	padding: 5px 35px;
+	line-height: 30px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 2px;
+	font-weight: bold;
+	display: inline-block;
+	transition: all 0.4s ease-in-out 0s;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.btn-theme {
+	border: none;
+}
+.btn-theme:hover, .btn-theme:focus {
+	transition: all 0.3s ease 0s;
+	outline: none;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 4px rgba(0, 0, 0, 0.16);
+}
+.btn-theme-two {
+	margin-left: 15px;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.btn-theme-two:hover, .btn-theme-two:focus {
+	transition: all 0.3s ease 0s;
+	outline: none;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 4px rgba(0, 0, 0, 0.16);
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+	border-radius: 50%;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+	border-radius: 50%;
+}
+.pagination > li > a, .pagination > li > span {
+	margin: 0 3px;
+	border-radius: 50%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #ddd;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > li > a:hover, .pagination > li > a:focus, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	transition: all 0.3s ease 0s;
+}
+button.mfp-close:hover, button.mfp-close:focus {
+	background: inherit;
+}
+/*---------------------------------------
+	WP Styles  
+-----------------------------------------*/
+/*--WP--*/
+
+.bypostauthor > article .fn:after {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1;
+	speak: none;
+	text-align: center;
+	text-decoration: inherit;
+	text-transform: none;
+	vertical-align: top;
+}
+.sticky {
+	display: none;
+}
+.gallery-caption {
+	color: #686868;
+	display: block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 0.5384615385em;
+}
+.wp-caption {
+	margin-bottom: 1.75em;
+	max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0;
+	max-width:100%;
+}
+.wp-caption .wp-caption-text {
+	color: #686868;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 0.5384615385em;
+}
+.content-area img.alignnone, .content-area figure.alignnone img {
+	width: 100%;
+	height: auto;
+}
+.content-area figure {
+	width: 100%;
+}
+.entry-header h1 {
+	position: relative;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.entry-header h1::before {
+	border: 1px solid;
+	bottom: 0;
+	content: "";
+	display: block;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	width: 30px;
+	transition: all 0.4s ease 0s;
+}
+.entry-header h1:hover::before {
+	width: 13%;
+}
+.entry-footer {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.entry-footer .screen-reader-text {
+	display: none;
+}
+img.alignnone {
+	width: 100%;
+	height: auto;
+}
+img.size-large {
+	width: 100%;
+	height: auto;
+}
+/*----woocommerce----*/
+/* woocommerce v2.3.5 */
+*:focus {
+	outline: 0;
+}
+.woocommerce h2 {
+	font-size: 22px;
+}
+.woocommerce h3 {
+	font-size: 20px;
+}
+/*----product----*/
+.woocommerce .products span.onsale, .woocommerce span.onsale {
+	border-radius: 50%;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 56px;
+	margin: 18px !important;
+	min-height: 10px;
+	padding: 0 12px;
+	z-index: 999;
+	width: 56px;
+	height: 56px;
+}
+.woocommerce span.onsale {
+	margin: 10px !important;
+}
+.woocommerce ul.products li.product {
+	text-align: center;
+	padding-bottom: 10px;
+	transition: all 0.4s ease 0s;
+	border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+}
+.woocommerce ul.products li.product:hover {
+	box-shadow: 0px 3px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.woocommerce ul.products li.product a {
+	overflow: hidden;
+	position: relative;
+}
+.woocommerce ul.products li.product:hover .button, .woocommerce ul.products li.product:hover .added_to_cart {
+	opacity: 1;
+}
+.woocommerce ul.products li.product .button:before {
+    content: "\f291";
+    font-family: FontAwesome;
+    font-size: 22px;
+    float: left;
+     width: 57px;
+    height: 55px;
+    line-height: 52px;
+}
+.woocommerce ul.products li.product .added_to_cart:before {
+    content: "\f07a";
+    font-family: FontAwesome;
+    font-size: 30px;
+    float: left;
+    margin: 0;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+}
+.woocommerce ul.products li.product .button, .woocommerce ul.products li.product .added_to_cart {
+	border: medium none;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0px 20px 6px 0px;
+    text-align: center;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    position: absolute;
+    right: 10px;
+    top: 63%;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.woocommerce ul.products li.product a img {
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+	border-radius: 4px 4px 0 0;
+}
+.woocommerce ul.products li.product a img:hover {
+	transform: scale(1.1);
+}
+.woocommerce-page .woocommerce-ordering select {
+	padding: 12px 15px 12px 10px;
+	color: #A0A0A0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 0;
+}
+.woocommerce-page .products .product > a:first-child {
+	position: relative;
+	text-align: center;
+	display: block;
+}
+.woocommerce-page .products a.button {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	border-radius: 4px;
+	margin: 10px;
+	border: none;
+	font-size: 12px;
+	margin: 0 auto !important;
+}
+.woocommerce-page .products h3 {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 25px;
+	float: none;
+	width: auto;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.woocommerce-page .products .star-rating {
+	position: relative;
+	margin: 0 auto;
+}
+.woocommerce-page .products a .price {
+	line-height: 20px;
+	width: 100%;
+	float: left;
+	height: auto;
+	min-height: 40px;
+	text-align: center;
+	padding: 10px 0;
+}
+.woocommerce ul.products li.product .price {
+	font-size: 14px;
+}
+.woocommerce-page .products a .price del {
+	display: inline-block !important;
+	line-height: 20px;
+}
+.woocommerce-page .products a .price ins {
+	display: inline-block;
+	font-weight: bold;
+	background: none;
+	line-height: 20px;
+	margin-left: 10px;
+}
+.woocommerce-page .products .added_to_cart {
+	display: inline-block;
+	text-align: center;
+	padding: 6px 20px 6px 20px;
+	border-radius: 4px;
+	border: none;
+	font-size: 12px;
+	margin: 0;
+}
+.woocommerce-page .woocommerce-result-count {
+	float: left;
+	font-size: 14px;
+	line-height: 46px;
+	margin-top: 20px;
+}
+.woocommerce-page .woocommerce-ordering {
+	float: right;
+	margin-top: 20px;
+}
+.woocommerce-page .product-type-simple {
+	position: relative;
+}
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+	font-size: inherit;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+footer .shopress-widget .woocommerce ul.cart_list li img, footer .shopress-widget .woocommerce ul.product_list_widget li img {
+	margin-top: 7px;
+}
+.woocommerce-checkout table.cart img {
+    box-shadow: none;
+    width: 60px;
+}
+.woocommerce a.remove {
+	font-size: 30px;
+    height: 40px;
+    line-height: 44px;
+    width: 40px;
+}
+/*woocommerce-tabs*/
+.tabs.wc-tabs {
+	text-align: center;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs::before {
+    border-bottom: 2px solid #eeeeee;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before, .woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+	display: none;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+	border-width: 0 0 2px 0;
+	border-style: solid;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+	border-radius: 0;
+	background: transparent;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+	border-radius: 0;
+	background: transparent;
+	border: none;
+}
+.woocommerce div.product .woocommerce-tabs .panel h2 {
+	font-size: 22px;
+	line-height: 25px;
+}
+.related.products {
+	text-align: center;
+}
+.related.products h2 {
+	font-size: 26px;
+	line-height: 40px;
+}
+/*woocommerce-form*/
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+	height: 40px;
+	margin-bottom: 20px;
+	border: 2px solid #ebebeb;
+	color: #ccc;
+	border-radius: 3px;
+	padding: 6px 12px;
+}
+.select2-container .select2-choice {
+	height: 40px;
+	padding: 6px 12px;
+	border-style: solid;
+	border-width: 2px;
+}
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+	border-radius: 0;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	border-color: #eee;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	padding: 15px 0;
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	padding: 15px 20px;
+}
+
+/*woocommerce-cart*/
+.woocommerce table.shop_table {
+	border-radius: 0;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.woocommerce table.shop_table th {
+    padding: 16px 12px;
+}
+.woocommerce table.shop_table td {
+    padding: 26px 12px;
+}
+.woocommerce .cart .button, .woocommerce .cart input.button {
+	float: none;
+	line-height: 30px;
+	padding: 5px 35px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.woocommerce .cart .button:hover, .woocommerce .cart input.button:hover {
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+	line-height: 30px;
+	padding: 5px 35px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover {
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+	border-radius: 3px;
+	height: 40px;
+	border-width: 2px;
+	border-style: solid;
+}
+.woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit[disabled]:disabled, .woocommerce a.button.disabled, .woocommerce a.button:disabled, .woocommerce a.button[disabled]:disabled, .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button[disabled]:disabled, .woocommerce input.button.disabled, .woocommerce input.button:disabled, .woocommerce input.button[disabled]:disabled {
+	padding: 5px 35px;
+}
+
+
+
+/*woocommerce-messages*/
+.woocommerce-page .woocommerce-message {
+	margin: 0px 0 40px;
+	border-radius: 3px;
+	list-style: none;
+}
+.woocommerce-page .woocommerce-message a {
+	padding: 6px 14px;
+	font-size: 12px;
+}
+.woocommerce-page .woocommerce-error {
+	list-style: none;
+	padding: 0;
+	margin: 0px 0 40px;
+	border-radius: 3px;
+	border: none;
+	float: left;
+	width: 100%;
+}
+.woocommerce-page .woocommerce-error a {
+	padding: 6px 14px;
+	font-size: 12px;
+}
+.woocommerce-page .woocommerce-info {
+	list-style: none;
+	padding: 0;
+	margin: 0px 0 40px;
+	border-radius: 3px;
+	border: none;
+	float: left;
+	width: 100%;
+	margin-top: 25px !important;
+}
+.woocommerce-page .woocommerce-info a {
+	padding: 6px 14px;
+	font-size: 12px;
+}
+.woocommerce-page .woocommerce-info {
+	float: left;
+	text-align: left;
+	padding-top: 30px;
+}
+.woocommerce-page .woocommerce .woocommerce-info {
+	border-radius: 3px;
+	border: none;
+	padding-top: 15px;
+	margin-bottom: 40px;
+}
+.woocommerce-page .woocommerce .woocommerce-info a {
+	opacity: 0.9;
+}
+/*woocommerce-pagination*/
+.woocommerce nav.woocommerce-pagination ul {
+	border: none;
+}
+.woocommerce nav.woocommerce-pagination ul li {
+	border: none;
+	height: 46px;
+    width: 55px;
+}
+.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span {
+	margin: 0 3px;
+	padding: 0;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav .woocommerce-pagination ul li span.current {
+	
+}
+/*woocommerce-price-filter*/
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
+	background: #1a2128;
+}
+/*----contactform----*/
+.wpcf7-form .wpcf7-form-control {
+	margin-top: 6px;
+	margin-bottom: 15px;
+	font-size: 12px;
+	height: 40px;
+	padding: 6px 12px;
+	display: block;
+	line-height: 1.42857143;
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+}
+.wpcf7-form .wpcf7-textarea {
+	height: 150px;
+	border-radius: 3px;
+}
+.wpcf7-form .wpcf7-form-control:hover, .wpcf7-form .wpcf7-form-control:focus {
+	box-shadow: none;
+}
+.wpcf7-form .wpcf7-form-control.wpcf7-submit {
+	padding: 5px 35px;
+	line-height: 30px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 14px;
+	display: inline-block;
+	transition: all 0.4s ease-in-out 0s;
+	width: auto;
+}
+/*---------------------------------------
+=========================================
+	content-Home-Sections
+=========================================
+-----------------------------------------*/
+
+/*---------------------------------------
+	shopress-slider-warraper          
+-----------------------------------------*/
+.shopress-slider-warraper #shopress-slider {
+	margin: 0;
+	position: relative;
+	z-index: 1;
+	float: left;
+	width: 100%;
+}
+.shopress-slider-warraper #shopress-slider .item img {
+	width: 100%;
+	min-height: 400px;
+}
+/*--------------- ti slider inner ---------------*/
+#shopress-slider .shopress-slider-inner {
+	height: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+	background: rgba(18, 4, 1, 0.4);
+}
+#shopress-slider .inner-table {
+	display: table;
+	height: 100%;
+}
+#shopress-slider .inner-table-cell {
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+	width: 100%;
+}
+#shopress-slider .slide-caption {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+#shopress-slider .slide-caption h1 {   
+	font-size: 80px;
+	line-height: 80px;
+	font-weight: 900;
+	transition: font 200ms ease-out 0s;
+}
+#shopress-slider .slide-caption .description {
+	font-size: 18px;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 auto;
+	width: 70%;
+}
+#shopress-slider .slide-caption .description p {
+	margin: 0;
+	letter-spacing: 0.1em;
+	font-size: 18px;
+	font-weight: 400;
+}
+#shopress-slider p {
+	font-size: 14px;
+}
+/*--------------- shopress-slider-Control ---------------*/
+.shopress-slider-warraper .owl-controls {
+	margin-top: -24px;
+}
+.shopress-slider-warraper .owl-controls .owl-buttons div {
+	width: 50px;
+	height: 50px;
+	display: block;
+	font-size: 26px;
+	line-height: 48px;
+	opacity: 1;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+	text-align: center;
+	box-shadow: 0 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+}
+.shopress-slider-warraper .owl-controls .owl-buttons div:hover {
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.shopress-slider-warraper .owl-controls .owl-buttons {
+	opacity: 0;
+	transition: all 0.3s ease 0s;
+}
+.shopress-slider-warraper:hover .owl-controls .owl-buttons {
+	opacity: 1;
+}
+.shopress-slider-warraper:hover .owl-controls .owl-buttons .owl-prev {
+	left: 35px;
+}
+.shopress-slider-warraper:hover .owl-controls .owl-buttons .owl-next {
+	right: 35px;
+}
+.shopress-slider-warraper .owl-controls .owl-buttons .owl-prev, .shopress-slider-warraper .owl-controls .owl-buttons .owl-next {
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	margin: -30px 0 0;
+	transition: all 0.3s ease 0s;
+}
+.shopress-slider-warraper .owl-controls .owl-buttons .owl-prev {
+	left: 8px;
+}
+.shopress-slider-warraper .owl-controls .owl-buttons .owl-next {
+	right: 8px;
+}
+.shopress-slider-warraper .owl-controls .owl-page {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 5px;
+}
+.shopress-slider-warraper .owl-controls .owl-page span {
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: transparent;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+.shopress-slider-warraper .owl-controls .owl-page.active span {
+	border-width: 4px;
+	border-style: solid;
+	width: 12px;
+	height: 12px;
+}
+.shopress-slider-warraper .owl-controls .owl-page span.owl-numbers {
+	height: auto;
+	width: auto;
+	color: #fff;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+.shopress-slider-warraper .owl-pagination {
+	bottom: 15px;
+	left: 0;
+	position: relative;
+	right: 0;
+	text-align: center;
+}
+/*--------------- ti slider Custom Buttons---------------*/
+.btn.btn-tislider, .btn.btn-tislider:hover, .btn.btn-tislider:focus {
+	outline: none;
+	margin: 20px auto;
+	letter-spacing: 1px;
+}
+/*---------------------------------------
+	shopress-section         
+-----------------------------------------*/
+.shopress-section {
+	padding: 40px 0;
+	margin: 0;
+}
+#content {
+	padding: 60px 0;
+}
+/*---------------------------------------
+	shopress-heading           
+-----------------------------------------*/
+.shopress-heading {
+	margin-bottom: 35px;
+	text-align: center;
+	position: relative;
+}
+.shopress-heading h1 ,.shopress-heading h3 {
+	font-size: 36px;
+}
+.shopress-heading .shopress-heading-inner {
+	position: relative;
+	margin-bottom: 10px;
+	line-height: 40px;
+	text-transform: capitalize;
+	width: auto;
+}
+.shopress-heading .shopress-sub-title {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.shopress-heading .shopress-sub-title:after {
+    content: '';
+    width: 170px;
+    height: 2px;
+    background-color: #d6d8dc;
+    margin-top: 30px;
+    display: block;
+    margin: 20px auto 0;
+}
+.shopress-heading-bor-bt h5 {
+	position: relative;
+	font-size: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 15px;
+}
+.shopress-heading-bor-bt h5::before {
+	bottom: 0;
+	content: "";
+	display: block;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	width: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+/*---------------------------------------
+	shopress-product          
+-----------------------------------------*/
+#product .shopress-product{
+    margin: 15px 0;
+    padding-bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#product .shopress-product a {
+    overflow: hidden;
+}
+#product .shopress-product a .onsale {
+    left: auto;
+    right: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 0;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 18px;
+    min-height: 10px;
+    padding: 0 12px;
+    z-index: 999;
+    background: #4caf50;
+    color: #fff;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    border-radius: 50%;
+}
+#product .shopress-product a img {
+    box-shadow: none;
+    display: block;
+    height: auto;
+    margin: 0 0 1em;
+    width: 100%;
+}
+#product .shopress-product a h3 {
+    display: inline-block;
+    float: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0;
+    padding: 0.5em 0;
+    position: relative;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+}
+#product .shopress-product a .star-rating {
+   display: none;
+}
+
+#product .shopress-product a .price {
+    float: left;
+    height: auto;
+    line-height: 20px;
+    min-height: 40px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    font-size: 21px;
+    color: #1e1e1f;
+}
+#product .shopress-product a .price del {
+    line-height: 20px;
+}
+#product .shopress-product a .price ins {
+    color: #e96656;
+    margin-left: 10px;
+    line-height: 20px;
+}
+#product .shopress-product a.button:before {
+    content: "\f291";
+    font-family: FontAwesome;
+    font-size: 22px;
+    float: left;
+    width: 55px;
+    height: 55px;
+    line-height: 53px;
+}
+#product .shopress-product .added_to_cart:before {
+    content: "\f07a";
+    font-family: FontAwesome;
+    font-size: 30px;
+    float: left;
+    margin: 0;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+}		
+#product .shopress-product a.button, .added_to_cart {
+    border: medium none;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 2px 20px 6px 2px;
+    text-align: center;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    position: absolute;
+    right: 10px;
+    top: 63%;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+#product .shopress-product:hover a.button{ 
+	opacity: 1;
+}
+#product .shopress-product a.button:hover, .added_to_cart:hover {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+#product .shopress-product:hover {
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+#product .shopress-product a img:hover {
+    transform: scale(1.1);
+    transition: all 0.7s ease 0s;
+}
+/*---------------------------------------
+	shopress-blog          
+-----------------------------------------*/
+.shopress-blog-section .overlay {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding: 40px 0;
+}
+.shopress-blog-post-box {
+	margin-bottom: 40px;
+	background: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e8e8e8;
+	border-radius: 2px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+}
+.shopress-blog-post-box .small {
+	font-size: 90%;
+	padding: 30px;
+}
+.shopress-blog-post-box .small > p {
+	margin-bottom: 20px;
+}
+.shopress-blog-thumb {
+	position: relative;
+	width: 100%;
+	margin-bottom: 22px;
+	float: left;
+	min-height: 60px;
+}
+.shopress-blog-thumb img {
+	position: relative;
+	max-width: 100%;
+	float: left;
+	height: auto;
+}
+.shopress-blog-date {
+	position: absolute;
+	left: 28px;
+	top: 28px;
+	display: inline-block;
+    border: 1px solid #d6d8dc;
+    text-align: center;
+    padding: 6px 12px 2px 12px;
+    border-radius: 4px;
+	box-shadow: 0 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+}
+.shopress-blog-date span.h3 {
+    font-size: 22px;
+}
+.shopress-blog-author {
+	background: #e8e8e8 none repeat scroll 0 0;
+	font-size: 16px;
+	font-weight: 800;
+	width: 65px;
+	height: 65px;
+	left: 0;
+	right: 0;
+	padding: 2px;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	margin: 0 auto -30px auto;
+	z-index: 999;
+}
+.shopress-blog-author img {
+	max-width: 100%;
+	border-radius: 100%;
+}
+.shopress-blog-post-box h1 {
+	font-size: 24px;
+	line-height: 26px;
+	position: relative;
+}
+.shopress-blog-category {
+	padding: 10px 0 0;
+}
+.shopress-blog-category a {
+	color: #b6b6b6;
+	display: inline-block;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 16px;
+	padding: 0 10px 0 0;
+}
+.shopress-blog-category i {
+	color: #888;
+}
+.btn-blog {
+	padding: 10px 20px;
+	border-radius: 2px;
+	border-width: 2px;
+	border-style: solid;
+	background: transparent;
+	font-size: 14px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.btn-blog:hover {
+	border-width: 1px;
+	border-style: solid;
+	transition: all 0.3s ease 0s;
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+.shopress-info-author-block {
+	border: 1px solid #e8e8e8;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	padding: 20px 20px 0px 20px;
+	color: #999;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+	border-radius: 2px;
+}
+.shopress-info-author-block a {
+	color: #222;
+	font-size: 16px;
+}
+.shopress-info-author-block .row {
+	margin: 0;
+}
+.shopress-info-author-block h4 {
+	color: #333;
+	font-size: 18px;
+	font-weight: normal;
+}
+.shopress-info-author-block h4 span {
+	color: #999999;
+	font-size: 16px;
+	padding-right: 5px;
+}
+.shopress-info-author-block h4 span i {
+	padding-right: 5px;
+}
+.shopress-info-author-block .shopress-author-pic img {
+	margin: 0 25px 15px 0;
+	float: left;
+	border: 1px solid #eee;
+	border-radius: 50%;
+}
+.shopress-info-author-block .shopress-info-author-social {
+	font-size: 24px;
+	padding: 0;
+}
+.shopress-info-author-block .shopress-info-author-social li a {
+	color: #dbdbdb;
+	font-size: 24px;
+}
+.shopress-info-author-block .shopress-info-author-social li a:hover {
+	color: #777;
+}
+.comment-form-comment label {
+	width: 100%;
+	clear: both;
+}
+
+
+.comment_section .comment-reply-link {
+	border-radius: 4px;
+	margin-left: 10px;
+	padding: 4px 8px;
+	transition: all 0.3s ease 0s;
+	border-width: 1px;
+	border-style: solid;
+	background: #f0f0f0;
+	color: #666;
+	border-color: #f0f0f0;
+}
+.shopress-comments a {
+	color: #777;
+}
+.shopress-comments .shopress-reply {
+	border-radius: 4px;
+	margin-left: 10px;
+	padding: 4px 8px;
+	transition: all 0.3s ease 0s;
+	border-width: 1px;
+	border-style: solid;
+}
+.shopress-comments a i {
+	padding-right: 6px;
+}
+.shopress-comments h4 {
+	color: #888;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 0;
+}
+.shopress-comments h4 span {
+	color: #999999;
+	font-size: 12px;
+	padding-left: 7px;
+}
+.shopress-comments .btn {
+	margin-left: 5px;
+}
+.shopress-comments .media {
+	margin-top: 0;
+}
+.shopress-comments .comment .media-body > p:last-child {
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+.shopress-comments li .media-body > .small {
+	border-bottom: none!important;
+	padding: 0;
+	color: #999;
+}
+.shopress-comments li .media-body > p {
+	border-bottom: 1px solid #f0f0f0;
+	padding: 5px 0px 20px 5px;
+	margin-bottom: 20px;
+	color: #999;
+}
+.shopress-comments li .media .media {
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.shopress-comments li:last-child .media-body > p {
+	border-bottom: none;
+	padding: 0;
+}
+.shopress-comments .media-left img {
+	height: 64px;
+	width: 64px;
+	border-radius: 50%;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+	margin: 0 0 0 5px;
+}
+.comments-area ol {
+	list-style: none;
+}
+.shopress-comments .comment-list li {
+	margin-bottom: 20px;
+	padding: 20px;
+	background: #fff;
+	border-left: 2px solid #eee;
+}
+/*---------------------------------------
+	form-control
+-----------------------------------------*/
+.form-control {
+	border-radius: 3px;
+	margin-bottom: 20px;
+	box-shadow: inherit;
+	height: 40px;
+}
+.form-control {
+	border-width: 1px;
+	border-style: solid;
+}
+.form-control::-moz-placeholder {
+opacity: 1;
+}
+.form-control:focus, .form-control:hover, .form-control:active {
+	box-shadow: none;
+}
+
+/* --------------------------------------
+=========================================
+	shopress-breadcrumb-section
+=========================================
+-----------------------------------------*/
+.shopress-breadcrumb-section {
+	background: url(images/breadcrumb-back.jpg) repeat fixed;
+	height: 100%;
+	margin: 0 0 0px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+	box-shadow: 0 0 5px 0 #aaaaaa;
+}
+.shopress-breadcrumb-section .overlay {
+	height: 100%;
+	padding: 100px 0;
+	position: relative;
+	width: 100%;
+}
+.shopress-breadcrumb-title {
+	text-align: center;
+	padding: 0;
+}
+.shopress-breadcrumb-title h1 {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0;
+	line-height: 85px;
+	padding-bottom: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+.shopress-page-breadcrumb {
+	list-style: none outside none;
+	margin-bottom: 12px;
+	padding: 0;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+}
+.shopress-page-breadcrumb > li {
+	display: inline-block;
+}
+.shopress-page-breadcrumb > li + li:before {
+	content: "\f105";
+	font-family: fontawesome;
+	padding: 0 5px;
+}
+/* --------------------------------------
+=========================================
+	shopress-sidebar
+=========================================
+-----------------------------------------*/
+.shopress-sidebar {
+	padding: 0;
+}
+.shopress-sidebar a {
+	transition: all 0.3s ease 0s;
+}
+.shopress-sidebar .shopress-widget .btn {
+	padding: 2px 12px;
+	border: none;
+	border-radius: 0;
+	height: 40px;
+}
+.shopress-sidebar .shopress-widget {
+	margin-bottom: 30px;
+	padding: 10px 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e8e8e8;
+	border-radius: 2px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+}
+.shopress-sidebar .shopress-widget ul {
+	padding: 0;
+	list-style: none;
+}
+.shopress-sidebar .shopress-widget ul li {
+	display: block;
+	letter-spacing: 0.2px;
+	line-height: 22px;
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 0;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+}
+.shopress-sidebar .shopress-widget ul li:last-child {
+	border: none;
+}
+.shopress-sidebar .shopress-widget h6 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.shopress-sidebar .shopress-widget h2 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.shopress-sidebar .shopress-widget h6, .shopress-sidebar .shopress-widget h2 {
+	position: relative;
+	padding-bottom: 0;
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+.shopress-sidebar .shopress-widget ul li {
+	padding: 10px 0;
+	position: relative;
+	transition: all 0.4s ease-in-out 0s;
+}
+.shopress-sidebar .shopress-widget ul li a:hover {
+	padding-left: 10px;
+	transition: all 0.4s ease-in-out 0s;
+}
+.shopress-sidebar .shopress-widget ul.menu li .sub-menu {
+	margin-left: 15px;
+}
+.shopress-sidebar .shopress-widget ul.menu li .sub-menu li {
+	border-bottom: none;
+	padding: 10px 0 0;
+}
+.shopress-sidebar .shopress-widget.widget_search .btn {
+	border: medium none;
+	border-radius: 0 3px 3px 0;
+	height: 40px;
+	padding: 2px 12px;
+	transition: all 0.3s ease 0s;
+}
+.shopress-sidebar .shopress-category-widget ul li {
+	padding: 10px 0;
+	position: relative;
+	transition: all 0.4s ease-in-out 0s;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+}
+.shopress-sidebar .shopress-category-widget ul li a:hover {
+	padding-left: 10px;
+	transition: all 0.4s ease-in-out 0s;
+}
+.shopress-sidebar .shopress-widget .shopress-widget-tags, .shopress-sidebar .shopress-widget .tagcloud {
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 0;
+}
+.shopress-sidebar .shopress-widget .shopress-widget-tags a, .shopress-sidebar .shopress-widget .tagcloud a {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 0 5px 9px 0;
+	padding: 6px 12px;
+	transition: all 0.4s ease-in-out 0s;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+}
+.shopress-sidebar .shopress-widget-tags a:hover, .shopress-sidebar .shopress-widget .tagcloud a:hover {
+	border-width: 1px;
+	border-style: solid;
+	transition: all 0.4s ease-in-out 0s;
+}
+/*--calendar_wrap--*/ 
+.shopress-sidebar .shopress-widget .calendar_wrap table {
+	width: 100%;
+	font-size: 11px;
+}
+.shopress-sidebar .shopress-widget .calendar_wrap table caption {
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 35px;
+	margin-bottom: 0;
+	padding: 5px 12px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+}
+.shopress-sidebar .calendar_wrap table thead th {
+	border-width: 1px;
+	border-style: solid;
+}
+.shopress-sidebar .calendar_wrap table tbody td:hover, .shopress-sidebar .calendar_wrap table tbody #today:hover {
+	transition: all 0.3s ease 0s;
+}
+.shopress-sidebar .calendar_wrap table tfoot {
+	border-width: 1px;
+	border-style: solid;
+}
+.shopress-sidebar .shopress-widget .calendar_wrap table thead th {
+	text-align: center;
+	padding: 6px 0;
+}
+.shopress-sidebar .shopress-widget .calendar_wrap table tbody td {
+	line-height: 2.5em;
+	transition: background 0.15s ease 0s;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+}
+.shopress-sidebar .shopress-widget .calendar_wrap table tfoot {
+	font-size: 11px;
+}
+.shopress-sidebar .shopress-widget .calendar_wrap table tfoot tr td#prev {
+	padding: 5px;
+	text-transform: uppercase;
+}
+.shopress-sidebar .shopress-widget .calendar_wrap table tfoot tr td#next {
+	padding: 5px;
+	text-align: right;
+	text-transform: uppercase;
+}
+/*--calendar_wrap end--*/ 
+.shopress-sidebar .shopress-widget .textwidget select, .shopress-sidebar .shopress-widget .textwidget img {
+	width: 100%;
+}
+/*----woocommerce footer-widget----*/
+.shopress-sidebar .shopress-widget.widget_product_search .btn {
+	padding: 2px 12px;
+	height: 40px;
+	border-radius: 0 3px 3px 0;
+	margin-left: -1px;
+}
+/* --------------------------------------
+=========================================
+	shopress-error page
+=========================================
+-----------------------------------------*/
+.shopress-error-404 h1 {
+	font-size: 100px;
+	line-height: 80px;
+}
+.shopress-error-404 h1 i {
+	padding: 5px;
+}
+.shopress-error-404 h4 {
+	line-height: 40px;
+}
+.shopress-error-404 p {
+	line-height: 30px;
+}
+/* --------------------------------------
+=========================================
+	shopress-footer
+=========================================
+-----------------------------------------*/
+footer .shopress-footer-widget-area {
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding-top: 50px;
+}
+footer .shopress-widget {
+	margin-bottom: 50px;
+}
+footer .shopress-widget:nth-child(4n+1) {
+	clear: both;
+}
+footer .shopress-search-widget .btn {
+	padding: 1px 12px;
+	border-radius: 0;
+	height: 40px;
+}
+footer .shopress-widget.widget_search .btn {
+	border-width: 1px;
+	border-style: solid;
+	padding: 2px 12px;
+	height: 40px;
+	border-top-right-radius: 3px;
+}
+footer .shopress-widget.widget_search .btn-default, footer .shopress-widget.widget_search .btn-default:hover {
+	background-color: initial;
+}
+footer .shopress-widget.widget_search .btn:hover, footer .shopress-widget.widget_search .btn:focus {
+	border-width: 1px;
+	border-style: solid;
+	transition: all 0.4s ease-in-out 0s;
+}
+footer .shopress-widget h6 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 0 30px 0;
+	position: relative;
+	padding-bottom: 12px;
+	font-family: 'Poppins', sans-serif;
+}
+footer .shopress-widget ul {
+	padding: 0;
+	list-style: none;
+}
+footer .shopress-widget ul li {
+	display: block;
+	letter-spacing: 0.2px;
+	line-height: 22px;
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 0;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+}
+footer .shopress-widget ul li a:hover {
+	transition: all 0.4s ease-in-out 0s;
+}
+footer .shopress-widget ul li:first-child {
+	padding-top: 0;
+}
+footer .shopress-widget ul li:last-child {
+	border-bottom: none;
+}
+footer .shopress-widget ul li {
+	margin: 0;
+	padding: 10px 0;
+	position: relative;
+}
+footer .shopress-widget ul li a {
+	transition: all 0.4s ease-in-out 0s;
+}
+footer .shopress-widget .shopress-widget-tags, footer .shopress-widget .tagcloud {
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 0;
+}
+footer .shopress-widget .shopress-widget-tags a, footer .shopress-widget .tagcloud a {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 0 5px 9px 0;
+	padding: 6px 12px;
+	transition: all 0.4s ease-in-out 0s;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+}
+footer .shopress-widget .shopress-widget-tags a:hover, footer .shopress-widget .tagcloud a:hover {
+	border-width: 1px;
+	border-style: solid;
+	transition: all 0.4s ease-in-out 0s;
+}
+footer .shopress-widget .calendar_wrap table {
+	width: 100%;
+	font-size: 11px;
+}
+footer .shopress-widget .calendar_wrap table caption {
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 35px;
+	margin-bottom: 0;
+	padding: 5px 12px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+}
+footer .shopress-widget .calendar_wrap table thead th {
+	text-align: center;
+	padding: 6px 0;
+	border-width: 1px;
+	border-style: solid;
+}
+footer .shopress-widget .calendar_wrap table tbody td {
+	line-height: 2.5em;
+	transition: background 0.15s ease 0s;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+}
+footer .calendar_wrap table tbody #today:hover {
+	transition: all 0.3s ease 0s;
+}
+footer .calendar_wrap table tbody td:hover {
+	transition: all 0.3s ease 0s;
+}
+footer .shopress-widget .calendar_wrap table tfoot {
+	font-size: 11px;
+	border-width: 1px;
+	border-style: solid;
+}
+footer .shopress-widget .calendar_wrap table tfoot tr td#prev {
+	padding: 5px;
+	text-transform: uppercase;
+}
+footer .shopress-widget .calendar_wrap table tfoot tr td#next {
+	padding: 5px;
+	text-align: right;
+	text-transform: uppercase;
+}
+footer .shopress-widget .textwidget select, footer .shopress-widget .textwidget img {
+	width: 100%;
+}
+footer .shopress-widget .form-control {
+	border-width: 2px;
+	border-style: solid;
+}
+/*----woocommerce footer-widget----*/
+footer .shopress-widget.widget_product_search .btn {
+	padding: 2px 12px;
+	height: 40px;
+	border-radius: 0 3px 3px 0;
+	margin-left: -1px;
+}
+/*----contactform footer-widget----*/
+footer .shopress-footer-copyright {
+	padding: 25px 0 10px;
+	border-top: 1px solid #eee;
+}
+footer .shopress-footer-copyright p, footer .shopress-footer-copyright a {
+	font-size: 14px;
+	line-height: 35px;
+}
+footer .shopress-social {
+	padding: 0px;
+	margin: 0;
+}
+footer .shopress-social li {
+	display: inline-block;
+	margin-right: 5px;
+	border-bottom: none;
+}
+footer .shopress-social li a:hover {
+	padding-left: 0;
+}
+footer .shopress-social li span.icon-soci {
+	border-width: 1px;
+	border-style: solid;
+	display: inline-block;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	margin: 0px 4px;
+	text-align: center;
+	width: 35px;
+	border-radius: 4%;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+footer .shopress-social li span.icon-soci:hover {
+	border-width: 1px;
+	border-style: solid;
+	transition: all 0.4s ease-in-out 0s;
+	box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.26);
+}
+footer .shopress-social li span.icon-soci a {
+	font-size: 14px;
+}
+/* --------------------------------------
+=========================================
+	shopress-scroll-button
+=========================================
+-----------------------------------------*/
+.shopress_scroll {
+	bottom: 2%;
+	display: none;
+	height: 40px;
+	opacity: 1;
+	overflow: hidden;
+	position: fixed;
+	right: 12px;
+	text-align: center;
+	width: 40px;
+	z-index: 9999;
+	border-radius: 50%;
+	border-width: 2px;
+	border-style: solid;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+.shopress_scroll:hover {
+	opacity: 1;
+	box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.26);
+}
+.shopress_scroll i {
+	font-size: 26px;
+	line-height: 36px;
+}
+.shopress_scroll:hover, .shopress_scroll:focus {
+	border-width: 2px;
+	border-style: solid;
+	transition: all 0.3s ease 0s;
+}
+/* --------------------------------------
+=========================================
+	shopress-Responsive Part
+=========================================
+-----------------------------------------*/
+@media (max-width: 992px) {
+.woocommerce-page .woocommerce .cart-collaterals .cart_totals {
+	width: 100%;
+}
+.woocommerce-page .products .product > a:first-child {
+/*		min-height: 325px; */
+}
+}
+@media (max-width: 767px) {
+
+.woocommerce-page .upsells.products ul li.product, .woocommerce-page .upsells.products ul.products li.product {
+	width: 48%;
+	float: left;
+	clear: both;
+	margin: 0 0 2.992em;
+}
+.woocommerce .upsells.products ul li.product:nth-child(4), .woocommerce-page ul.products li.product:nth-child(4) {
+	margin: 0 0 2.992em;
+}
+.woocommerce .upsells.products ul li.product:nth-child(4+1), .woocommerce-page ul.products li.product:nth-child(4+1) {
+	clear: none;
+}
+.woocommerce .upsells.products ul li.product:nth-child(even), .woocommerce-page ul.products li.product:nth-child(even) {
+	margin-right: 0;
+	float: right;
+}
+.woocommerce .upsells.products ul li.product:nth-child(odd), .woocommerce-page ul.products li.product:nth-child(odd) {
+	clear: left;
+}
+}
+@media (max-width: 600px) {
+.woocommerce-page .product .images {
+	width: 100%;
+}
+.woocommerce-page .product .entry-summary {
+	width: 100%;
+	padding-left: 0%;
+	margin-top: 50px;
+}
+.woocommerce-page .woocommerce-tabs .tabs li a {
+	font-size: 14px;
+}
+.woocommerce-page .woocommerce-tabs .tabs li {
+	padding: 10px 10px;
+}
+.listpost-content-wrap-large {
+	position: relative;
+}
+.listpost-content-wrap-large {
+	padding: 20px 0px 0px 0px;
+}
+.entry-meshopress-large {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.entry-footer-large {
+	padding-right: 0;
+}
+}
+@media (max-width: 480px) {
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	width: 100%;
+}
+.woocommerce-page .woocommerce-result-count {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.woocommerce-page .woocommerce-ordering {
+	float: none;
+}
+.woocommerce-page .products .product > a:first-child {
+	width: 240px;
+}
+.woocommerce-page .woocommerce-tabs .tabs li {
+	width: 100%;
+}
+.woocommerce-page .woocommerce-tabs .tabs li {
+	width: 100%;
+	border-bottom: 2px solid #CCC;
+}
+.woocommerce-page .woocommerce-tabs .tabs {
+	border-bottom: 0;
+}
+.woocommerce-page .woocommerce-tabs .comment_container {
+	position: relative;
+	padding-left: 0px;
+	padding-top: 50px;
+}
+.woocommerce-page .products .product > a:first-child {
+	width: 100%;
+}
+/* cart page */
+.woocommerce table.shop_table th {
+	padding: 5px 5px;
+	font-size: 8px;
+}
+.woocommerce-page .woocommerce .product-name a {
+	font-size: 12px;
+	line-height: 16px;
+	float: left;
+}
+.woocommerce table.shop_table td {
+	padding: 6px 4px;
+}
+.woocommerce table.shop_table td, .woocommerce table.shop_table td span, .woocommerce table.shop_table td a, .woocommerce table.shop_table td strong {
+	font-size: 12px;
+}
+.woocommerce table.shop_table td .amount {
+	font-size: 12px;
+}
+.woocommerce-page .woocommerce .product-quantity input.qty {
+	width: 45px;
+}
+.woocommerce td.product-quantity {
+	min-width: 40px;
+}
+.woocommerce-page .woocommerce input[type="submit"] {
+	font-size: 10px;
+}
+.woocommerce-page .woocommerce .cart_totals tr.cart-subtotal th {
+	font-size: 12px;
+}
+.woocommerce-cart .cart-collaterals .cart_totals tr th {
+	font-size: 12px;
+}
+.woocommerce-cart .cart-collaterals .cart_totals table td, .woocommerce-cart .cart-collaterals .cart_totals table td span, .woocommerce-cart .cart-collaterals .cart_totals table td a {
+	font-size: 12px;
+}
+.woocommerce form .form-row label {
+	font-size: 12px;
+}
+.woocommerce-page .woocommerce .woocommerce-info, .woocommerce-page .woocommerce .woocommerce-info a {
+	font-size: 12px;
+}
+.woocommerce-checkout-payment label {
+	font-size: 14px;
+}
+.woocommerce-page .woocommerce #payment div.payment_box p {
+	font-size: 12px;
+	line-height: 16px;
+	text-align: justify;
+}
+.woocommerce form .form-row {
+	width: 100%;
+}
+.woocommerce-page .woocommerce .order_details li {
+	width: 100%;
+	border-bottom: 1px dashed #d3ced2;
+	border-right: none;
+	padding: 0 0 5px 0;
+	margin-bottom: 5px;
+	margin-top: 5px
+}
+.woocommerce-page address {
+	font-size: 12px;
+}
+.woocommerce-page .woocommerce-error, .woocommerce-page .woocommerce-message, .woocommerce-page .woocommerce-error li {
+	font-size: 12px;
+}
+.woocommerce-page .woocommerce .cart-collaterals .cart_totals a {
+	width: 100%;
+	margin-right: 0;
+}
+.woocommerce-page .woocommerce .checkbox {
+	font-size: 16px;
+}
+.woocommerce-page .myaccount_address {
+	font-size: 12px;
+}
+.woocommerce-page #content .quantity input.minus, .woocommerce-page #content .quantity input.plus {
+	display: none;
+}
+.woocommerce-page .upsells.products ul li.product, .woocommerce-page .upsells.products ul.products li.product {
+	width: 100%;
+}
+}
+/* [end] woocommerce */
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar-header {
+	float: none;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+/* logo*/
+.navbar-default .navbar-brand {
+	margin: 0 auto;
+	text-align: center;
+}
+.navbar-wp .navbar-nav > li > a {
+	padding: 12px;
+}
+.navbar-wp .shopress-search-box {
+	float: left;
+}
+.shopress-search {
+	margin: 0 auto;
+}
+}
+@media screen and (min-width: 1024px) {
+
+
+}
+@media screen and (min-width: 240px) and (max-width: 1179px) {
+.shopress-slider-inner p {
+	width: auto;
+}
+#shopress-slider .slide-caption h1{
+	font-size: 450%;
+}	
+}
+@media screen and (min-width: 530px) and (max-width: 1024px) {
+/*--------------- shopress-slider ---------------*/
+.shopress-slider-inner {
+	min-width: auto !important;
+	width: auto !important;
+}
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+}
+@media screen and (min-width: 240px) and (max-width: 767px) {
+.navbar-wp .shopress-header-cart-mob {
+	display: block;
+}	
+/*--------------- shopress-slider ---------------*/
+.navbar-wp .navbar-nav>.active>a, .navbar-wp .navbar-nav>.active>a:hover, .navbar-wp .navbar-nav>.active>a:focus {
+	border-bottom: none;
+}
+.navbar-wp .navbar-nav > a, .navbar-wp .navbar-nav> a:hover, .navbar-wp .navbar-nav a:focus {
+	border-bottom: none;
+}
+.shopress-slider-inner {
+	min-width: auto !important;
+	width: auto !important;
+}
+#shopress-slider .slide-caption h1{
+	font-size: 180%;
+	line-height: 40px;
+	letter-spacing: 0;
+}
+#shopress-slider .slide-caption .description {
+	font-size: 100%;
+	line-height: 1em;
+	margin: 0 auto;
+	width: 100%;
+}
+.shopress-slider-warraper .owl-controls .owl-buttons div {
+	width: 30px;
+	height: 30px;
+	font-size: 200%;
+	line-height: 10px;
+	border-width: 2px;
+	border-style: solid;
+}
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+        white-space: nowrap;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+/*--------------- Gallary ---------------*/
+
+
+.gallery {
+	margin: 0 -1.1666667% 1.75em;
+}
+
+.gallery-item {
+	display: inline-block;
+	max-width: 33.33%;
+	padding: 0 1.1400652% 2.2801304%;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-icon img {
+	margin: 0 auto;
+}
+
+.gallery-caption {
+	color: #fff;
+	display: block;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 0.5384615385em;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
